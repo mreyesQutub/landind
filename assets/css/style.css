@@ -30,6 +30,15 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+.carousel-indicators li {
+  background-color: #3498db;
+}
+.carousel-control-next-icon:hover {
+  background-color: #3498db;
+}
+.carousel-control-prev-icon:hover {
+  background-color: #3498db;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
