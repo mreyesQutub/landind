@@ -568,8 +568,68 @@ section {
   .clients img {
     width: 40%;
   }
+  .section-title h2 {
+    font-size: 22px;
+  }
+}
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #f1f1f1;
+  color: #666;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  width: 20px;
+  background-color: #2a6ce6fa;
+  top: calc(50% - 20px);
+  border: none;
+}
+.carousel .carousel-control-prev-icon {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 10%;
+  background-image: url("../img/icon_arrow_left_blue.svg");
+}
+.carousel .carousel-control-next-icon {
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 10%;
+  background-image: url("../img/icon_arrow_right_blue.svg");
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
 }
 
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+.mostrar {
+  display: none;
+}
 @media (max-width: 575px) {
   .clients img {
     width: 30%;
@@ -1164,6 +1224,7 @@ section {
 
 .team .member .member-info {
   padding: 25px 15px;
+  height: 200px;
 }
 
 .team .member .member-info h4 {
