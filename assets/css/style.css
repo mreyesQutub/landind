@@ -1051,6 +1051,16 @@ section {
     position: static;
     left: auto;
   }
+  .portfolio .portfolio-wrap img {
+  transition: all ease-in-out 0.3s;  
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(34, 34, 34, 0.6);
+}
 }
 
 /*--------------------------------------------------------------
@@ -1092,6 +1102,9 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+ 
+  width: 100%;
+  height: 260px;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -1114,6 +1127,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  height: 260px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1224,7 +1238,7 @@ section {
 
 .team .member .member-info {
   padding: 25px 15px;
-  height: 200px;
+  
 }
 
 .team .member .member-info h4 {
@@ -1687,3 +1701,4 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+i

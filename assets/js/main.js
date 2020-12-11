@@ -202,6 +202,7 @@
   $(window).on('load', function () {
     aos_init();
   });
+  //corousel
   $(document).ready(function () {
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
@@ -243,11 +244,11 @@
 
 
         if (bodyWidth >= 1200) {
-          incno = itemsSplit[3];
+          incno = itemsSplit[1];
           itemWidth = sampwidth / incno;
         }
         else if (bodyWidth >= 992) {
-          incno = itemsSplit[2];
+          incno = itemsSplit[1];
           itemWidth = sampwidth / incno;
         }
         else if (bodyWidth >= 768) {
