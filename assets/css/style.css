@@ -589,9 +589,8 @@ section {
 .MultiCarousel .MultiCarousel-inner .item > div {
   text-align: center;
   padding: 10px;
-  margin: 10px;
-  background: #f1f1f1;
-  color: #666;
+  margin: 10px; 
+ 
 }
 .MultiCarousel .leftLst,
 .MultiCarousel .rightLst {
@@ -606,13 +605,13 @@ section {
 .carousel .carousel-control-prev-icon {
   position: absolute;
   top: calc(50% - 20px);
-  left: 10%;
+  left: -20%;
   background-image: url("../img/icon_arrow_left_blue.svg");
 }
 .carousel .carousel-control-next-icon {
   position: absolute;
   top: calc(50% - 20px);
-  right: 10%;
+  right: -20%;
   background-image: url("../img/icon_arrow_right_blue.svg");
 }
 .MultiCarousel .leftLst {
