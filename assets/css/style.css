@@ -1598,7 +1598,9 @@ section {
   min-height: 40px;
   margin-top: 86px;
 }
-
+.img-fluid {
+  object-fit: cover;
+}
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 72px;
@@ -1646,6 +1648,10 @@ section {
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+  .row .next {
+    margin-left: 200px;
+    border-style: solid;
   }
 }
 
