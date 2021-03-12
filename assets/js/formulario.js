@@ -16,7 +16,7 @@ document.querySelector('#enviar').addEventListener('click', function () {
             window.open(url);
         }
     } else {
-        alert("Coreno no valido")
+        alert("Correo no valido")
     }
 
 });
