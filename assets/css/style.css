@@ -68,7 +68,32 @@ h6 {
   background: #57aae1;
   color: #fff;
 }
-
+.soft{
+  width: 50%;
+ 
+}
+.tarj{
+  height: 400px;
+}
+.tarj:hover{
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+.rotar:hover{
+  animation: flip;
+  animation-duration: 3s;
+}
+.rotar{
+  width: 100px;
+}
+.grande{
+  display: flex;
+}
+.pequena{
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+}
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -76,6 +101,17 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .soft{
+    width: 100%;
+    height: auto;
+  }
+ .tarj{
+   height: auto;
+ }
+ .pequena{
+  width: 33%;
+}
+  
 }
 
 /*--------------------------------------------------------------
